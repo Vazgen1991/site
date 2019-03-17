@@ -1,0 +1,60 @@
+/*header*/
+header {
+    background: white;
+}
+
+::placeholder {
+    font-family: Rubik-Light,sans-serif;
+    font-size: 18px;
+    color: #b5b5b5;
+}
+
+header form {
+    width: 70%;
+}
+
+header form input {
+    font-size: 17px;
+    border: none;
+    padding: 8px;
+}
+
+header span {
+    font-size: 20px;
+}
+
+header .katie a {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+header form .search-input:before {
+    content: url("../img/magnifying-glass.png");
+    position: relative;
+    top: 7px;
+}
+
+header .logo a :hover {
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header*/

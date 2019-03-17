@@ -1,0 +1,100 @@
+
+/*container*/
+
+/*.container {*/
+    /*max-width: 1580px;*/
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*.container-sm {*/
+    /*max-width: 1230px;*/
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*container*/
+
+/*headings*/
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+/*headings*/
+
+/*colors*/
+
+.color-primary {
+    color: #757d89;
+}
+
+.color-secondary {
+    color: #555555;
+}
+
+.color-alternative {
+    color: #a0a0a0;
+}
+
+/*colors*/
+
+/*buttons*/
+
+.btn {
+    max-width: 83px;
+    width: 100%;
+    height: 37px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+
+.big-btn {
+    max-width: 157px;
+    width: 100%;
+    height: 51px;
+}
+
+
+.btn-background-primary {
+    background-color: rgb(106, 211, 110);
+}
+
+.btn-background-secondary {
+    background-color: rgb(251, 88, 103);
+}
+
+.btn-background-alternative {
+    background-color: rgb(56, 198, 218);
+}
+
+/*buttons*/
+
+/*flexbox*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+
+}
+
+/*flexbox*/
+
+

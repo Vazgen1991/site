@@ -1,0 +1,306 @@
+body {
+    font-family: Rubik-Regular,sans-serif;
+    background: #eef0f2;
+    font-size: 17px;
+}
+
+/*section aside-bar*/
+.aside-bar {
+    max-width: 350px;
+    width: 100%;
+}
+
+.aside-bar {
+    background: white;
+    position: relative;
+}
+
+.aside-bar aside  h3 {
+    text-transform: uppercase;
+    color: #bcbfc4;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #bcbfc4;
+}
+
+.aside-bar aside nav ul li a i {
+    color: #d5d8db;
+}
+
+.aside-bar aside nav ul li {
+    padding-top: 30px;
+}
+
+.aside-bar aside nav ul li a {
+    font-size: 18px;
+}
+
+.aside-bar aside nav ul li a:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    left: 0;
+    height: 40px;
+    display: block;
+    visibility: hidden;
+    background-color: #38c6da;
+}
+
+.aside-bar aside nav ul li a:hover:before {
+    visibility: visible;
+}
+.aside-bar aside nav ul li a:hover i {
+    color: #38c6da;
+}
+
+.aside-bar aside nav ul li a:hover {
+
+    color: #38c6da;
+}
+
+.aside-bar aside nav ul li i {
+    font-size: 25px;
+}
+
+.pad-left {
+    padding-left: 35px;
+}
+
+.pad-right {
+    padding-right: 30px;
+}
+
+.margin-right {
+    margin-right: 30px;
+}
+/*section aside-bar*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section content*/
+
+.content {
+    /*background: white;*/
+    width: calc(100% - 410px);
+    margin: 0 auto;
+}
+.content .box table tbody tr:nth-child(even) {
+    background-color: #f7f8f9;
+}
+
+.content .box table tbody td i {
+    font-size: 13px;
+}
+
+
+.content .box table tbody td i:hover {
+    color: #38c6da;
+}
+.content .box table {
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.box table tr td {
+    padding: 20px;
+}
+.box {
+    background: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 7px;
+}
+.box table .field label {
+    font-family: Rubik-Light,sans-serif;
+    color: #a0a0a0;
+}
+.box table .field input {
+    display: none;
+}
+
+.box table .field label:before  {
+    font-family: 'icomoon' !important;
+    content: '\e90b';
+    color: #d4d4d4;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    margin-right: 28px;
+    transition: .2s all ease-in-out;
+}
+
+.box table .field input:checked {
+    content: '\e900';
+}
+
+.content .box table thead tr th {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.content .box td a[href^='mailto'] {
+    text-align: left;
+    color: #555555;
+}
+
+/*.heading-pad {*/
+    /*padding: 35px 20px 50px;*/
+/*}*/
+
+.content table {
+    position: relative;
+}
+
+.content table thead:after {
+    content: '';
+    background-color: #bcbfc4;
+    height: 1px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 55px;
+
+}
+
+.content .box table  td i {
+    color:#cfd3d8 ;
+}
+
+.add a {
+    font-size: 18px;
+    color: white;
+}
+
+.add a:after {
+    font-family: 'icomoon' !important;
+    content: '\e90c';
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.add:hover {
+    opacity: .8;
+}
+
+
+/*.content table thead {*/
+    /*border-bottom: 1px solid #bcbfc4;*/
+    /*margin-top: 25px;*/
+    /*width: 100%;*/
+/*}*/
+
+
+.box table td .field input:checked + label:before {
+    background-color: rgb(106, 211, 110);
+    color: #ffffff;
+}
+
+/*.box table td .field input + label:active:before {*/
+    /*transform:scale(0);*/
+/*}*/
+.box table td .field input:checked + label {
+    color: rgb(106, 211, 110);
+}
+
+/*section box*/
+
+
+
+/*box-2*/
+
+.field {
+    text-align: left;
+}
+
+/*.box table tr td:nth-child(2) {*/
+    /*text-align: left;*/
+/*}*/
+
+
+.box table .radio-field input {
+    display: none;
+}
+
+.box table .radio-field input label {
+font-size: 24px;
+color: #cfcfcf;
+display: inline-block;
+padding: 0 0 0 1em;
+cursor: pointer;
+    border: 1px solid #cfcfcf;
+}
+
+.radio-field label:before {
+    content: '';
+    display: inline-block;
+    background: #cfcfcf;
+    position: relative;
+    left: 0;
+    top: 5px;
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+    border-radius: 80%;
+    /* box-shadow: 0px 1px 0 0 rgba(71, 105, 220, 0.2); */
+    box-sizing: border-box;
+    border: 8px solid #ffffff;
+    transition: border .3s ease;
+}
+
+.radio-field input:checked + label:before {
+    background: #38c6da;
+border-color: white;
+border-width: 8px;
+}
+
+.radio-field input:checked + label {
+transition: color .7s ease;
+}
+.radio-field input:checked + label {
+color: red;
+}
+
+.content .box table thead .box-tr:first-child th {
+    width: 35%;
+}
+
+.content .box table thead .box-tr th:nth-child(2) {
+    width: 35%;
+}
+
+.content .box table thead .box-tr th:nth-child(3) {
+    width: 15%;
+}
+
+.content .box table thead .box-tr th:nth-child(4) {
+    width: 15%;
+}
+
+
+
+/*.box table tr th {*/
+    /*width: 25%;*/
+/*}*/
+
+
+
+
+/*box-2*/

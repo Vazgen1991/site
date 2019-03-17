@@ -1,0 +1,127 @@
+/* Rubik-Regular */
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Rubil-Regilar/Rubik-Regular.woff2') format('woff2'),
+    url('../fonts/Rubil-Regilar/Rubik-Regular.woff') format('woff'),
+    url('../fonts/Rubil-Regilar/Rubik-Regular.ttf') format('ttf'),
+    url('../fonts/Rubil-Regilar/Rubik-Regular.eot') format('eot'),
+    url('../fonts/Rubil-Regilar/Rubik-Regular.ttf');
+}
+
+/* Rubik-Light */
+
+@font-face {
+    font-family: 'Rubik-Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Rubik-Light/Rubik-Light.woff2') format('woff2'),
+    url('../fonts/Rubik-Light/Rubik-Light.woff') format('woff'),
+    url('../fonts/Rubik-Light/Rubik-Light.ttf') format('ttf'),
+    url('../fonts/Rubik-Light/Rubik-Light.eot') format('eot'),
+    url('../fonts/Rubik-Light/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../icon/icomoon.eot?267juc');
+    src: url('../icon/icomoon.eot?267juc#iefix') format('embedded-opentype'),
+    url('../icon/icomoon.ttf?267juc') format('truetype'),
+    url('../icon/icomoon.woff?267juc') format('woff'),
+    url('../icon/icomoon.svg?267juc#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*[class^="icon-"], [class*=" icon-"] {*/
+    /*!* use !important to prevent issues with browser extensions that change fonts *!*/
+    /*font-family: 'icomoon' !important;*/
+    /*speak: none;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1;*/
+
+    /*!* Better Font Rendering =========== *!*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*.icon-checked:before {*/
+    /*content: "\e900";*/
+    /*color: #d5d8db;*/
+/*}*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icon/icomoon.eot?pyk1g9');
+    src:  url('../icon/icomoon.eot?pyk1g9#iefix') format('embedded-opentype'),
+    url('../icon/icomoon.ttf?pyk1g9') format('truetype'),
+    url('../icon/icomoon.woff?pyk1g9') format('woff'),
+    url('../icon/icomoon.svg?pyk1g9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus-symbol:before {
+    content: "\e90c";
+    color: #fff;
+}
+.icon-checked:before {
+    content: "\e90b";
+}
+.icon-home:before {
+    content: "\e900";
+}
+.icon-listing-option:before {
+    content: "\e901";
+}
+.icon-management:before {
+    content: "\e902";
+}
+.icon-pie-chart:before {
+    content: "\e903";
+}
+.icon-puzzle:before {
+    content: "\e904";
+}
+.icon-table-grid:before {
+    content: "\e905";
+}
+.icon-worldwide:before {
+    content: "\e906";
+}
+.icon-blank-file:before {
+    content: "\e907";
+}
+.icon-coin:before {
+    content: "\e908";
+}
+.icon-dashboard:before {
+    content: "\e909";
+}
+.icon-forms:before {
+    content: "\e90a";
+}
+
+
+
+
